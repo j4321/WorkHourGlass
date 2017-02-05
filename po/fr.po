@@ -1,0 +1,226 @@
+# WorkHourGlass - Enhance your efficiency by timing your work and breaks
+# Copyright (C) 2015 Juliette Monsel
+# This file is distributed under the same license as the WorkHourGlass package.
+# Juliette Monsel <j_4321@sfr.fr>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.2\n"
+"Report-Msgid-Bugs-To: j_4321@sfr.fr\n"
+"POT-Creation-Date: 2015-10-05 22:19+0200\n"
+"PO-Revision-Date: 2015-10-05 22:20+0200\n"
+"Last-Translator:  <j_4321@sfr.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:119
+#: WorkHourGlass_files/WorkHourGlass_class.py:177
+#: WorkHourGlass_files/WorkHourGlass_class.py:179
+#: WorkHourGlass_files/WorkHourGlass_class.py:182
+#: WorkHourGlass_files/WorkHourGlass_class.py:202
+#: WorkHourGlass_files/WorkHourGlass_class.py:213
+#: WorkHourGlass_files/WorkHourGlass_class.py:214
+#: WorkHourGlass_files/WorkHourGlass_class.py:257
+#: WorkHourGlass_files/WorkHourGlass_class.py:294
+#: WorkHourGlass_files/WorkHourGlass_class.py:297
+#: WorkHourGlass_files/WorkHourGlass_class.py:488
+#: WorkHourGlass_files/WorkHourGlass_class.py:523
+#: WorkHourGlass_files/WorkHourGlass_class.py:548
+#: WorkHourGlass_files/WorkHourGlass_class.py:560
+msgid "Work"
+msgstr "Travail"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:142
+msgid "Sound configuration"
+msgstr "Configuration du son"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:143
+msgid ""
+"The automatic detection of command line soundplayer has failed. If you want "
+"to hear the beep between work sessions and breaks, please give the name of a "
+"command line soundplayer installed on your system. If you do not know, you "
+"can install mpg123 (linux)."
+msgstr ""
+"La détection automatique du lecteur audio en ligne de commande a échoué. "
+"Si vous voulez entendre les bips entre les sessions de travail et les pauses, "
+"merci de renseignez un lecteur audio en ligne de commande installé sur votre "
+"système. Si vous ne savez pas quoi mettre, vous pouvez installer mpg123 (linux)."
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:152
+#: WorkHourGlass_files/WorkHourGlass_class.py:341
+#: WorkHourGlass_files/WorkHourGlass_class.py:384
+#: WorkHourGlass_files/WorkHourGlass_class.py:793
+msgid "Cancel"
+msgstr "Annuler"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:153
+msgid "Ok"
+msgstr "Ok"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:180
+#: WorkHourGlass_files/WorkHourGlass_class.py:183
+#: WorkHourGlass_files/WorkHourGlass_class.py:295
+#: WorkHourGlass_files/WorkHourGlass_class.py:298
+#: WorkHourGlass_files/WorkHourGlass_class.py:557
+msgid "Break"
+msgstr "Pause"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:181
+#: WorkHourGlass_files/WorkHourGlass_class.py:184
+#: WorkHourGlass_files/WorkHourGlass_class.py:296
+#: WorkHourGlass_files/WorkHourGlass_class.py:299
+#: WorkHourGlass_files/WorkHourGlass_class.py:553
+msgid "Rest"
+msgstr "Repos"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:241
+#: WorkHourGlass_files/WorkHourGlass_class.py:334
+msgid "New task"
+msgstr "Nouvelle tâche"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:243
+#: WorkHourGlass_files/WorkHourGlass_class.py:375
+msgid "Remove task"
+msgstr "Supprimer des tâches"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:245
+#: WorkHourGlass_files/WorkHourGlass_class.py:781
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:250
+msgid "Task: "
+msgstr "Tâche : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:349
+#: WorkHourGlass_files/WorkHourGlass_class.py:489
+#: WorkHourGlass_files/WorkHourGlass_class.py:512
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:349
+msgid "Are you sure you want to delete these tasks?"
+msgstr "Voulez-vous vraiment supprimer cette tâche ?"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:385
+msgid "Delete"
+msgstr "Supprimer"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:457
+msgid "time (h)"
+msgstr "temps (h)"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:458
+msgid "date"
+msgstr "date"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:490
+msgid ""
+"You should not interrupt your work if you want to be efficient. Do you still "
+"want to suspend the timer?"
+msgstr ""
+"Pour plus d'efficacité, vous ne devriez pas interrompre votre travail. Voulez-"
+"vous toujours mettre le minuteur en pause ?"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:513
+msgid "Are you sure you want to give up the current session?"
+msgstr "Voulez-vous vraiment arrêter la session en cours ?"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:591
+msgid "Settings"
+msgstr "Paramètres"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:608
+msgid "General"
+msgstr "Général"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:611
+msgid "Times:"
+msgstr "Temps :"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:615
+#: WorkHourGlass_files/WorkHourGlass_class.py:738
+msgid "Work: "
+msgstr "Travail : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:621
+#: WorkHourGlass_files/WorkHourGlass_class.py:752
+msgid "Break: "
+msgstr "Pause : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:627
+#: WorkHourGlass_files/WorkHourGlass_class.py:766
+msgid "Rest: "
+msgstr "Repos : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:640
+msgid "Font:"
+msgstr ""
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:647
+msgid "Family: "
+msgstr "Famille : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:653
+msgid "Size: "
+msgstr "Taille : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:668
+msgid "Language:"
+msgstr "Langue : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:687
+msgid "Sound"
+msgstr "Son"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:689
+msgid "Sound:"
+msgstr "Son : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:718
+msgid "Audio player: "
+msgstr "Lecteur audio : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:728
+msgid "Colors"
+msgstr "Couleurs"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:741
+#: WorkHourGlass_files/WorkHourGlass_class.py:755
+#: WorkHourGlass_files/WorkHourGlass_class.py:769
+msgid "Background: "
+msgstr "Fond : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:745
+#: WorkHourGlass_files/WorkHourGlass_class.py:759
+#: WorkHourGlass_files/WorkHourGlass_class.py:773
+msgid "Text: "
+msgstr "Texte : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:783
+msgid "Statistics:"
+msgstr "Statistiques : "
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:871
+msgid "Error"
+msgstr "Erreur"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:871
+msgid "There is at least one invalid setting!"
+msgstr "Il y a au moins un paramètre invalide !"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:874
+msgid "Information"
+msgstr "Information"
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:875
+msgid "The language setting will take effect after restarting the application."
+msgstr "Le changement de langue prendra effet après le redémarrage du logiciel."
+
+#: WorkHourGlass_files/WorkHourGlass_class.py:881
+msgid "sound file"
+msgstr "fichier son"
