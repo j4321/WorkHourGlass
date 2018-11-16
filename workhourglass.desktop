@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Encoding=UTF-8
+Name=WorkHourGlass
+Comment="Enhance your efficiency by timing your work and breaks"
+Exec=workhourglass
+Icon=workhourglass
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=false

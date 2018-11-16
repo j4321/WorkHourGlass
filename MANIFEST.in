@@ -1,4 +1,3 @@
-include WorkHourGlass.py README.txt COPYING.txt WorkHourGlass.desktop install_debian-ubuntu.py
-recursive-include WorkHourGlass_files *
+include *.txt workhourglass.desktop install_debian-ubuntu.py
 recursive-include fonts *
 recursive-include po *

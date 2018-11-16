@@ -34,12 +34,14 @@ from WorkHourGlass.constants import CONFIG, CMAP, STYLE, PATH_CONFIG, PATH_STATS
 from WorkHourGlass.constants import GO, STOP, PLUS, MOINS, TOMATE, PARAMS, GRAPH, ICON, ICON_WIN
 from WorkHourGlass.params import Params
 from WorkHourGlass.constants import LANG
+from ewmh import EWMH, ewmh
 _ = LANG.gettext
+
 
 class Timer(Tk):
     """ Chronométre de temps de travail pour plus d'efficacité """
     def __init__(self):
-        Tk.__init__(self)
+        Tk.__init__(self, className="WorkHourGlass")
         self.on = False  # is the timer on?
 
         if not CONFIG.options("Tasks"):
@@ -124,7 +126,7 @@ class Timer(Tk):
                            anchor="center")
         self.titre.grid(row=0, column=0, columnspan=2, sticky="we")
         self.temps = Label(self,
-                           text= "{0:02}:{1:02}".format(self.tps[0], self.tps[1]),
+                           text="{0:02}:{1:02}".format(self.tps[0], self.tps[1]),
                            font="%s %i" % (CONFIG.get("General", "font"),
                                            CONFIG.getint("General", "fontsize")),
                            style='fen.TLabel',
@@ -143,6 +145,17 @@ class Timer(Tk):
         self.b_go.grid(row=4, column=0, sticky="ew")
         self.b_params = Button(self, image=self.im_params, command=self.params)
         self.b_params.grid(row=4, column=1, sticky="ew")
+
+        # --- make window sticky
+        self.update_idletasks()
+        e = EWMH()
+        try:
+            for w in e.getClientList():
+                if w.get_wm_name() == self.title():
+                    e.setWmState(w, 1, '_NET_WM_STATE_STICKY')
+            e.display.flush()
+        except ewmh.display.error.BadWindow:
+            pass
 
     def set_config(self):
         self.background = {_("Work"): CONFIG.get("Work", "bg"),
@@ -388,7 +401,7 @@ class Timer(Tk):
 
     def ting(self):
         """ joue le son marquant le changement de période """
-        if not CONFIG.get("mute", False):
+        if not CONFIG.getboolean("Sound", "mute", fallback=False):
             if PL[0] == "w":
                 Popen(["powershell", "-c",
                        '(New-Object Media.SoundPlayer "%s").PlaySync();' % (CONFIG.get("Sound", "beep"))])
